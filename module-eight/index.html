@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+    <ul>
+    </ul>
+
+    <script id="tpl-movie" type="text/x-handlebars-template">
+        <li>
+            <div>
+                {{title}} ({{year}}) <span class='label label-warning'>{{mpaa_rating}}</span>
+            </div>
+            <div class='btn btn-primary btn-xs'> Show details</div>
+        </li>
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
